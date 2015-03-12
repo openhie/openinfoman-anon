@@ -118,9 +118,15 @@ declare function  anonymize:organization($organization,$values,$map) {
     ,
     for $cp in $org/csd:contactPoint
     let $anon_cp := 
-      <csd:contactPoint>
-        <csd:codedType code="{$cp/csd:codedType/@code}" codingScheme="{$cp/csd:codedType/@codingScheme}">{anonymize:scramble($cp/csd:codedType/text())}</csd:codedType>
-      </csd:contactPoint> 
+      if (string($cp/@code) = 'EMAIL')
+      then
+        <csd:contactPoint>
+          <csd:codedType code="{$cp/csd:codedType/@code}" codingScheme="{$cp/csd:codedType/@codingScheme}">someone@nowhere.com</csd:codedType>
+	</csd:contactPoint> 
+      else 
+        <csd:contactPoint>
+          <csd:codedType code="{$cp/csd:codedType/@code}" codingScheme="{$cp/csd:codedType/@codingScheme}">{anonymize:scramble($cp/csd:codedType/text())}</csd:codedType>
+	</csd:contactPoint> 
     return replace node $cp with $anon_cp
     ,
     for $addr in $org/csd:address
