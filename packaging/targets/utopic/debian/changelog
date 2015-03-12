@@ -1,3 +1,9 @@
+openinfoman-anon (1.0.1~utopic) utopic; urgency=medium
+
+  * Release Version 1.0.1
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Thu, 12 Mar 2015 18:36:09 +0000
+
 openinfoman-anon (1.0.0~utopic) utopic; urgency=low
 
   [Carl Leitner <litlfred@ibiblio.org>]
