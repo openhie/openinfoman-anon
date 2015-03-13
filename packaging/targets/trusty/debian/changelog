@@ -1,3 +1,11 @@
+openinfoman-anon (1.0.3~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.3
+    -f2e641e more anonymization on email
+    --https://github.com/openhie/openinfoman-anon/commmit/f2e641e
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Fri, 13 Mar 2015 12:32:39 +0000
+
 openinfoman-anon (1.0.2~trusty) trusty; urgency=medium
 
   * Release Version 1.0.2
