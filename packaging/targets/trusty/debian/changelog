@@ -1,3 +1,11 @@
+openinfoman-anon (1.0.4~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.4
+    -fda6886 anon email too
+    --https://github.com/openhie/openinfoman-anon/commmit/fda6886
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Fri, 17 Apr 2015 16:06:22 -0400
+
 openinfoman-anon (1.0.3~trusty) trusty; urgency=medium
 
   * Release Version 1.0.3
