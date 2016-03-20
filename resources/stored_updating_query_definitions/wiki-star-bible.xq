@@ -15,7 +15,7 @@ let $values_doc := "anonymous/bible.xml"
 let $fac_values_doc := "anonymous/star.xml"
 
 
-let $values_src_0 := db:open($csd_webconf:db,  $values_doc)
+let $values_src_0 := db:open($csd_webconf:db,$values_doc)
 let $values_src_1 := 
  if (count($values_src_0//value[1]) > 0)  
  then $values_src_0
@@ -81,7 +81,7 @@ return
   for $doc  in $careServicesRequest/documents/document
     let $name := $doc/@resource
     let $src_doc :=
-      if (not ($name = $dest)) then csd_dm:open_document($csd_webconf:db, $name) 
+      if (not ($name = $dest)) then csd_dm:open_document( $name) 
       else ()
     let $anon_doc := anonymize:document($src_doc,$values,$fac_values,$fac_values)
     return   (csd_lsc:refresh_doc($dest_doc, $anon_doc))
