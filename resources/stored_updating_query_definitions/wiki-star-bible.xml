@@ -10,7 +10,7 @@
       <csd:careSerivcesResponse id="" code="" content-type=""/>
     </xforms:instance>
     <xforms:instance id="http-post-request">
-      <csd:requestParams/>
+      <documents/>
     </xforms:instance>
     <xforms:instance id="http-post-response">
       <http:result xmlns:http="http://expath.org/ns/http-client" status="">
@@ -30,7 +30,7 @@
         </soap:Header>
         <soap:Body>
           <csd:careServicesRequest urn="urn:openhie.org:openinfoman-anon:wiki-star-bible">
-            <csd:requestParams/>
+            <documents/>
           </csd:careServicesRequest>
         </soap:Body>
       </soap:Envelope>
