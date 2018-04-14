@@ -1,3 +1,13 @@
+openinfoman-anon (1.2.2~trusty) trusty; urgency=medium
+
+  * Release Version 1.2.2
+    -4328603 adding compat file
+    --https://github.com/openhie/openinfoman-anon/commmit/4328603
+    -8be2128 packaging for ubuntu 16.04
+    --https://github.com/openhie/openinfoman-anon/commmit/8be2128
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sat, 14 Apr 2018 07:06:01 +0000
+
 openinfoman-anon (1.2.1~trusty) trusty; urgency=medium
 
   * Release Version 1.2.1
