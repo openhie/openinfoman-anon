@@ -1,0 +1,66 @@
+openinfoman-anon (1.2.2~xenial) xenial; urgency=medium
+
+  * Release Version 1.2.2
+    -4328603 adding compat file
+    --https://github.com/openhie/openinfoman-anon/commmit/4328603
+    -8be2128 packaging for ubuntu 16.04
+    --https://github.com/openhie/openinfoman-anon/commmit/8be2128
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sat, 14 Apr 2018 07:06:02 +0000
+
+openinfoman-anon (1.2.1~trusty) trusty; urgency=medium
+
+  * Release Version 1.2.1
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sun, 20 Mar 2016 18:33:10 +0000
+
+openinfoman-anon (1.1.1~trusty) trusty; urgency=medium
+
+  * Release Version 1.1.1
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sat, 05 Mar 2016 10:51:39 +0000
+
+openinfoman-anon (1.0.5~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.5
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sat, 05 Mar 2016 09:59:00 +0000
+
+openinfoman-anon (1.0.4~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.4
+    -fda6886 anon email too
+    --https://github.com/openhie/openinfoman-anon/commmit/fda6886
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Fri, 17 Apr 2015 16:06:22 -0400
+
+openinfoman-anon (1.0.3~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.3
+    -f2e641e more anonymization on email
+    --https://github.com/openhie/openinfoman-anon/commmit/f2e641e
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Fri, 13 Mar 2015 12:32:39 +0000
+
+openinfoman-anon (1.0.2~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.2
+    -1e1b1a5 Update README.md
+    --https://github.com/openhie/openinfoman-anon/commmit/1e1b1a5
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Thu, 12 Mar 2015 18:46:39 +0000
+
+openinfoman-anon (1.0.1~trusty) trusty; urgency=medium
+
+  * Release Version 1.0.1
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Thu, 12 Mar 2015 18:36:09 +0000
+
+openinfoman-anon (1.0.0~trusty) trusty; urgency=low
+
+  [Carl Leitner <litlfred@ibiblio.org>]
+  * Initial Build
+    Fri 2015-02-13 13:55:10 -0500
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Mon, 16 February 2015 13:55:10 -0500
+
