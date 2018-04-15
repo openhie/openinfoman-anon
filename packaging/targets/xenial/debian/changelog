@@ -1,3 +1,11 @@
+openinfoman-anon (1.2.3~xenial) xenial; urgency=medium
+
+  * Release Version 1.2.3
+    -49bf339 packaging for ubuntu 18.04
+    --https://github.com/openhie/openinfoman-anon/commmit/49bf339
+
+ -- Carl Leitner <litlfred@ibiblio.org>  Sun, 15 Apr 2018 07:31:31 +0000
+
 openinfoman-anon (1.2.2~xenial) xenial; urgency=medium
 
   * Release Version 1.2.2
